@@ -1,0 +1,6 @@
+patron_id_mapping.csv
+data/raw/
+*.csv.bak
+__pycache__/
+.idea/
+notebooks/
