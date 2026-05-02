@@ -42,16 +42,57 @@ Anonymized export from a content creator's Patreon page.
 Grouped 150 paying patrons into monthly cohorts and tracked what percentage remained subscribed at each month from M0 to M12.
 
 **Key findings:**
-- Early cohorts (Apr–Oct 2024) show near-perfect retention through 12 months, these are core long-term fans who joined at the page's relaunch.
-- The largest single-cohort drop occurred in the **2025-06 cohort**, which went from 100% to 0% between M4 and M5 (November 2025), coinciding with  content output decline during that month.
-- The **2025-01 cohort** (10 patrons) dropped sharply from 100% to 20% at M10, suggesting a cluster of patrons with similar subscription intent who left around the same time.
-- Recent cohorts (2026) show early churn in M1–M2, which is normal with the current economic pressure on "random" spending.
-- Average retention stabilizes around **50–60%** for cohorts that survive past month 6.
+
+1. Biggest drop-off month:
+    The biggest drop happened in Nov 2025, content output dropped in this period where I couldn't post as much as
+    I wanted so it correlates with the high churn spike.
+
+2. Best cohort and possible reason:
+    Best cohort is the one from the beginning of the page, it was the second time that I launched the page and some
+    people who were fans before joined in and some still remain to this day.
+
+3. Worst cohort and possible explanation:
+    Worst cohort is from June 2025, basically people who joined in that months and left in Nov, all of them from the
+    base tier, from the exit surveys, most of them in that period are marked with "My financial situation changed".
+
+4. Early vs recent cohort comparison:
+    Earlies cohorts are better since it was before the economy shifted drastically in the past months, so keeping
+    subscribers becomes harder and harder, even for external reasons.
+
+5. Recommendation:
+    Increase the content quality and include patrons in FAQ, votes etc, making them feel more connected with the page,
+    that will help out with the churn rate. So at least one engagement post per month should be able to improve the
+    retention.
 
 ---
 
 ### 2. Churn Analysis
-*Coming soon*
+*Script:* scripts/churn_analysis.py
+*Outputs:* outputs/churn_reasons.png · outputs/churn_over_time.png
+
+**Key findings:**
+
+1. Primary churn reason and what the creator can/cannot control:
+Can control: quality and quantity of content, Can't control: The wallets of the patreons, but with the can control
+aspects, you can try to balance the chances in your favor, at least to make them think twice before churning, including
+cancelling coupons, life 50% discount for the next month if you don't cancel. Even if they churn, they can be targeted
+again with coupons for rejoining.
+
+2. How high-value patrons differ from low-value patrons in churn behaviour:
+Usually they get their personalized content and leave, depends on how much they want or if they come back for more
+at a later time.
+
+3. Does the November 2025 spike appear in the survey data? What reason dominated that month?
+No, so in the end, it's hard to find the exact reasons why so many people left, the only thing that they would have in
+common is the Chrismas coming.
+
+4. What the $1,557 churner case study reveals:
+This is the final objective of the page, 20% of clients generate 80% of the revenue, the more people come to the page,
+the bigger the chances that one of them will be a whale, spending more than 99% of patrons, this also creates a
+division between passive and active income from the page.
+
+5. Top recommendation based on churn analysis:
+Focus on the things that I can control, more involvement with the patrons, and cancellations and returning offers.
 
 ---
 

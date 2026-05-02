@@ -32,6 +32,20 @@ Types: `feat` · `analysis` · `fix` · `docs` · `refactor` · `data`
 
 ---
 
+[2026-04-27]
+analysis: churn reason breakdown and high-value patron case study
+
+- Loaded and merged exit survey data (42 responses) with patron dataset
+- Calculated survey coverage: ~51% of churned patrons left a response, 49% churned silently
+- Computed churn reason frequency — financial situation #1 at 50% of respondents
+- Segmented churn reasons by pledge amount (low value ≤$5 vs high value >$5)
+- Identified high-value patron churn pattern: transactional intent (join for specific content, leave after receiving it)
+- Investigated November 2025 churn spike — not confirmed in survey data, likely silent churn with seasonal factor
+- Case study on $1,557 lifetime value churner — illustrates Pareto dynamic in creator monetization
+- Generated outputs/churn_reasons.png — horizontal bar chart of churn reasons
+- Generated outputs/churn_over_time.png — monthly churn survey timeline
+- Exported data/processed/churn_reasons.csv for PowerBI dashboard use
+
 *Upcoming:*
 - `02_churn_analysis` — cross exit survey reasons with cohort and pledge data
 - `03_tier_analysis` — retention and LTV comparison across tiers

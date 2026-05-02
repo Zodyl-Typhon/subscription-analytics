@@ -27,7 +27,7 @@ print('Libraries loaded')
 
 # Load the data from the .csv file
 df = pd.read_csv(
-    r'C:\Users\eddyz\OneDrive\Desktop\Patreon Analytics\data\processed\patrons_clean.csv',
+    r'/data/patrons_clean.csv',
     parse_dates=['started_at','last_updated_at','last_charge_at'],
 )
 
