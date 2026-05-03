@@ -9,6 +9,20 @@ Types: `feat` · `analysis` · `fix` · `docs` · `refactor` · `data`
 
 ## [2026-04-24]
 
+### analysis: tier revenue, retention and upsell opportunity
+
+- Loaded patron data and filtered to 150 paying patrons across 3 tiers
+- Built crosstab of tier vs patron status with active rate per tier
+- Computed revenue breakdown: Full Rewards $4,881 (68.2%), Commission $1,465 (20.5%), VIP $814 (11.4%)
+- Calculated avg LTV per tier: Commission $488, VIP $116, Full Rewards $35
+- Identified VIP Rewards as longest tenure tier at 12.5 avg months
+- Noted $1,557 outlier patron classified under VIP Rewards skewing avg pledge — excluded from upsell calculation
+- Upsell scenario: 10 Full Rewards → VIP upgrades generates ~$500/year additional recurring revenue
+- Generated outputs/tier_revenue.png — total revenue and avg LTV side by side bar charts
+- Generated outputs/tier_retention.png — active rate by tier
+- Exported data/processed/tier_summary.csv for PowerBI dashboard use
+- Updated README with tier analysis findings
+
 ### feat: project initialization and data anonymization
 - Set up project folder structure (`data/`, `scripts/`, `dashboard/`, `outputs/`)
 - Exported raw Patreon member data (359 patrons, Apr 2024 – Apr 2026)

@@ -1,0 +1,4 @@
+tier,total_revenue,avg_ltv,median_ltv,patron_count,revenue_share_%,avg_pledge_usd,active_rate_%,avg_tenure_months
+Commission,1465.0,488.33,511.0,3,20.5,141.0,33.3,9.9
+Full Rewards,4881.33,34.87,11.92,140,68.2,5.78,46.4,8.7
+VIP Rewards,813.5,116.21,57.5,7,11.4,231.11,42.9,12.5

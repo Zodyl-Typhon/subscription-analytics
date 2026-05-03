@@ -97,7 +97,33 @@ Focus on the things that I can control, more involvement with the patrons, and c
 ---
 
 ### 3. Tier & Lifetime Value Analysis
-*Coming soon*
+*Script:* scripts/tier_analysis.py
+*Outputs:* outputs/tier_revenue.png · outputs/tier_retention.png
+
+Broke down patron behaviour by subscription tier to understand which tiers generate the most revenue, 
+retain the best, and represent the highest long-term value per patron.
+
+1. Which tier generates the most total revenue and why:
+Full rewards tier generates the most since it's the most accessible one, VIP generates extra money for no extra work,
+Commissions is where a big boost of money comes, but it requires the most work.
+
+2. Which tier is most valuable per patron and what that means:
+Commission tier is the most valuable, people are willing to pay way extra for personalized content and insights, 
+especially from someone they respect, enjoy etc.
+
+3. Which tier retains best and which retains worst:
+Full rewards retains the best since again, it's the most accessible (cheapest), so people don't mind that much a coffee
+per month, also VIP is not that behind also. Full Rewards has the most active patrons, but VIP shows longer average 
+tenure.
+
+4. What the upsell calculation reveals about revenue growth potential:
+Upselling can bring extra revenue at to extra work, but again, patron deciding to upgrade is based entirely on their
+decisions, it's very hard to influence that directly, maybe in the long run, since they will be part of the journey
+themselves. Even a small upsell of 10 patron will generate around 500$ per year extra.
+
+5. Top recommendation: where should the creator focus — more patrons, higher tiers, or better retention?
+The recomandation is to increase the funnel itself, Free patrons > Full Rewards > VIP > Commission, the more the better,
+since even the free patrons can subscribe with upgrade coupons.
 
 ---
 
